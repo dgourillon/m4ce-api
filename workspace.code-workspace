@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "terraform-example-foundation",
+			"path": "../../../terraform-example-foundation"
+		}
+	],
+	"settings": {}
+}

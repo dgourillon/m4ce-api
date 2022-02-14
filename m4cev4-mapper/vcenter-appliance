@@ -1,0 +1,29 @@
+
+RunGroup,-1
+BlockOnFailure,false
+VmID,vm-20
+VmName,"vCenter Appliance"
+SourceCloudDetails,
+OsType,"Other 3.x Linux (64-bit)"
+BootFirmware,BIOS
+NumCPU,2
+MemoryGB,10.0
+NumDisks,13
+ProvisionedSpaceGB,22
+TargetCloudExtension,ce-16
+TargetEdgeNode,NodeA
+WriteIsolation,false
+TargetInstanceType,
+TargetInstanceName,vcenter-appliance
+TargetSubnet,"https://www.googleapis.com/compute/v1/projects/migrate-16-5977/regions/us-west2/subnetworks/us-west2-subnet"
+TargetStaticIP,
+TargetPublicIP,
+UpgradeOS,false
+GcpEphemeralPublicIp,false
+GcpProject,migrate-16-5977
+GcpNetworkTags,"testtag1,testtag2"
+"GcpInstanceServiceAccount","526450699415-compute@developer.gserviceaccount.com"
+GcpDiskType,SSD
+GcpSecureBoot,false
+license:os,
+ProbeTCPPort,22
